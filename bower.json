@@ -1,0 +1,26 @@
+{
+  "name": "nebo-url-parser",
+  "description": "Javascript URL parser",
+  "main": "lib/url-parser.js",
+  "authors": [
+    "Alexey Bondarenko"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "url",
+    "parser",
+    "js",
+    "angular"
+  ],
+  "homepage": "https://github.com/Nebo15/url-parser",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
