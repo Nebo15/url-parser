@@ -15,6 +15,35 @@ Small JS URL parser.
 bower install nebo-url-parser --save
 ```
 
+## Usage
+
+```
+var link = new URLParser('http://sub.domain.com:8080/test/route?query=10&arr[]=10&arr[]=20&obj.a=a&obj.b=b#!/somehash');
+
+/* link object
+{
+  hash: "#!/somehash",
+  host: "sub.domain.com:8080",
+  hostname: "sub.domain.com",
+  href: "http://sub.domain.com:8080/test/route?query=10&arr[]=10&arr[]=20&obj.a=a&obj.b=b#!/somehash",
+  params: {
+    arr: ["10", "20"],
+    obj: {
+      a: "a",
+      b: "b"
+    },
+    query: "10"
+  },
+  pathname: "/test/route",
+  port: "8080",
+  protocol: "http:"
+}
+*/
+
+link.params.obj.a = 'c';
+var href = link.toString();
+```
+
 Angular JS
 
 ```
@@ -22,16 +51,6 @@ angular.module('app', [
   ...,
   'url-parser'
 ]);
-```
-
-## Usage
-
-```
-var link = new URLParser('http://sub.domain.com:8080/test/route?query=10&arr[]=10&arr[]=20&obj.a=a&obj.b=b#!/somehash');
-
-
-link.params.obj.a = 'c';
-var href = link.toString();
 ```
 
 See example on [JSBin](https://jsbin.com/sogacokite/edit)
