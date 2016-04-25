@@ -4,11 +4,41 @@ TODO: Write a project description
 
 ## Installation
 
-TODO: Describe the installation process
+```
+bower install nebo-url-parser --save
+```
+
+Angular JS
+
+```
+angular.module('app', [
+  ...,
+  'url-parser'
+]);
+```
 
 ## Usage
 
-TODO: Write usage instructions
+```
+var link = new URLParser('http://sub.domain.com:8080/test/route?query=10&arr[]=10&arr[]=20&obj.a=a&obj.b=b#!/somehash');
+link.params.obj.a = 'c';
+var href = link.toString();
+```
+
+## Documentation
+
+### Properties
+
+`params` - object with search params
+
+`href` - full original  url
+`protocol` - url protocol
+`hostname` - hostname
+`port` - hostname
+`pathname` - pathname
+`search` - query string
+`hash` - url hash
+
 
 ## Contributing
 
@@ -20,12 +50,14 @@ TODO: Write usage instructions
 
 ## History
 
-TODO: Write history
+**25.04.2016**
+
+Init project
 
 ## Credits
 
-TODO: Write credits
+Alexey Bondarenko (http://bondalex.com) created this!
 
 ## License
 
-TODO: Write license
+See [LICENSE-MIT](../LICENSE-MIT)
