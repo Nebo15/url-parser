@@ -33,15 +33,14 @@ See example on [JSBin](https://jsbin.com/sogacokite/edit)
 
 ### Properties
 
-`params` - object with search params
-
-`href` - full original  url
-`protocol` - url protocol
-`hostname` - hostname
-`port` - hostname
-`pathname` - pathname
-`search` - query string
-`hash` - url hash
+`params` - object with search params   
+`href` - full original  url  
+`protocol` - url protocol  
+`hostname` - hostname  
+`port` - hostname  
+`pathname` - pathname  
+`search` - query string  
+`hash` - url hash  
 
 
 ## Contributing
