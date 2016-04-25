@@ -1,0 +1,28 @@
+{
+  "name": "url-parser",
+  "version": "1.0.0",
+  "description": "Javascript URL parser",
+  "main": "lib/url-parser.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nebo15/url-parser.git"
+  },
+  "keywords": [
+    "url",
+    "parser",
+    "js",
+    "angular"
+  ],
+  "author": "Alexey Bondarenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nebo15/url-parser/issues"
+  },
+  "homepage": "https://github.com/Nebo15/url-parser#readme"
+}
