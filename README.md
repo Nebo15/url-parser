@@ -21,6 +21,8 @@ angular.module('app', [
 
 ```
 var link = new URLParser('http://sub.domain.com:8080/test/route?query=10&arr[]=10&arr[]=20&obj.a=a&obj.b=b#!/somehash');
+
+
 link.params.obj.a = 'c';
 var href = link.toString();
 ```
