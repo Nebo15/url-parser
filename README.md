@@ -7,6 +7,7 @@ Small JS URL parser.
 - Simple query params
 - PHP query arrays
 - Nested object 
+- Angular JS wrapper
 
 ## Installation
 
