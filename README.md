@@ -27,6 +27,8 @@ link.params.obj.a = 'c';
 var href = link.toString();
 ```
 
+See example on [JSBin](https://jsbin.com/sogacokite/edit)
+
 ## Documentation
 
 ### Properties
