@@ -1,6 +1,12 @@
-# Project Name
+# URL Parser
 
-TODO: Write a project description
+Small JS URL parser. 
+
+### Support
+
+- Simple query params
+- PHP query arrays
+- Nested object 
 
 ## Installation
 
