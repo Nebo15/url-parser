@@ -1,5 +1,7 @@
 # URL Parser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Nebo15/url-parser.svg)](https://greenkeeper.io/)
+
 Small JS URL parser. 
 
 ### Support
